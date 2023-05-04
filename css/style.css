@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #000;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(145, 141, 141);
+    font-family: 'Sigmar', cursive;
+}
+
+#logo,
+#logo1 {
+    width: 100px;
+}
+
+#sk {
+    text-align: center;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-left:25px;
+    margin-right:25px;
+    align-items: center;
+    background-color: #bebdbd;
+}
+
+section #bio {
+    display: flex;
+    justify-content: left;
+    text-align: center;
+    align-items: left;
+}
+
+figure {
+    display: block;
+    width: 205px;
+    border: 2px solid white;
+    border-bottom: 0px;
+    border-radius: 2px;
+}
+
+figcaption {
+    text-align: center;
+    border: 3px solid white;
+    border-radius: 3px;
+    background-color: white;
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+}
+
+a img {
+    height: 300px;
+}
+.bio-texto {
+    font-size: 15px;
+    text-align: center ;
+    align-items: center;
+    padding-top:50px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+}
+.bio-foto {
+    display: flex;
+    padding-top: 5px;
+    justify-content: center;
+    text-align: center;
+}
+.biografia-texto {
+    background-color:white;
+    text-align: center;
+    font-family: 'Sigmar', cursive;
+    color: black;
+    font-weight: bold;
+    background-color: #b1b0b0;
+    font-size: 15px;
+}
+#palco {
+    padding-bottom: 10px;
+    width: 40%;
+    height: 40%;
+}
+#bioh1 {
+    font-size: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#carr1 {
+    font-size: 30px;
+}
+#texto {
+    padding-bottom: 25px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+#show {
+    width: 40%;
+    height: 40%;
+}
+#texto2 {
+    padding-bottom: 25px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+}
+.carreira {
+    font-family: 'Sigmar', cursive;
+    background-color: #bebdbd;
+    padding-top: 25px;
+    text-align: center;
+}
+.footer-texto {
+    background-color: #b1b0b0;
+    font-family: 'Sigmar', cursive;
+    text-align: center;
+
+}
+.player{
+    padding-top: 15px;
+}
+#copy {
+    text-decoration: none;
+}
